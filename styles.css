@@ -1,0 +1,75 @@
+:root {
+  --ff: 'Figtree', sans-serif;
+
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: var(--ff);
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  --hover-dist: 0.5rem;
+  background-color: var(--white);
+  padding: 1.15rem;
+  border-radius: 1.5rem;
+  width: 17.5rem;
+  border: 2px solid var(--black);
+  box-shadow: var(--hover-dist) var(--hover-dist) 0 var(--black);
+  transition: all 150ms;
+  position: relative;
+}
+
+.card:hover {
+  translate: -0.25rem -0.25rem;
+  --hover-dist: 0.75rem;
+  cursor: pointer;
+}
+
+.head-img {
+  width: 100%;
+  border-radius: 0.95rem;
+}
+
+.tag {
+  background-color: var(--yellow);
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.25em 1em;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.publish-date {
+  font-size: 0.85rem;
+  margin-block: 1rem;
+}
+
+.card h1 {
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: var(--grey);
+}
+
+.teacher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.teacher img {
+  width: 2.25rem;
+  margin-block: 0.5rem;
+}
