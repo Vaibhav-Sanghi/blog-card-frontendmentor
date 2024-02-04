@@ -10,7 +10,7 @@
 
 ### Links
 
-- Live Site URL: [here](https://vaibhav-sanghi.github.io/profile-frontendmentor/)
+- Live Site URL: [here](https://vaibhav-sanghi.github.io/blog-card-frontendmentor/)
 
 ### Built with
 
